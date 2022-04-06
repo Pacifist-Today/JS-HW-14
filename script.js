@@ -10,8 +10,10 @@ simpleNumber : for (i = 2; i <= num; i++) {
     }
 }
 
-if (count === num || num === 1) {
+if (count === num) {
     console.log("Число простое")
+} else if (num === 1) {
+    console.log("Наименьшее натуральное число")
 } else {
     console.log("Число не простое")
 }
